@@ -21,7 +21,7 @@ public class test {
         transaction.begin();
         // 4.完成增删改操作
         Custom custom = new Custom();
-        custom.setCustName("san");
+        custom.setCustName("wangwu");
         custom.setCustSource("南昌");
         manager.persist(custom);
         // 5.关闭事务
